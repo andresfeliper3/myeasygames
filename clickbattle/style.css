@@ -1,0 +1,76 @@
+html,body {
+margin:0px;
+height:100%;
+}
+.container {
+  height:75%;
+  width:100%;
+  border:1px solid orange;
+}
+.casilla {
+
+  height:25px;
+  width:6%;
+  display:inline-block;
+}
+.casilla:hover{
+  cursor:pointer;
+}
+.button {
+  margin:auto;
+  position:absolute;
+}
+#jugar {
+  display:none;
+}
+#colocar {
+  display:block;
+}
+#left {
+  height:100%;
+  width:40%;
+  border:1px solid blue;
+  float:left;
+  display:inline-block;
+}
+#right {
+  height:100%;
+  width:40%;
+  border:1px solid red;
+  display:inline-block;
+  position:absolute;
+}
+#mid {
+  display:inline-block;
+  height:100%;
+  width:10%;
+  border:1px solid green;
+  background-color: brown;
+}
+.row {
+  display:block;
+}
+.menu {
+  height:18%;
+  width:100%;
+}
+.blue {
+  background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Blue_person_pictogram.svg/2000px-Blue_person_pictogram.svg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.red {
+  background-image: url('http://www.clker.com/cliparts/z/z/K/E/G/L/red-person-symbol.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.attack {
+  background-image:url('https://www.enriquedans.com/wp-content/uploads/2014/07/tinta-negra.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.eliminated {
+  background-image: url('https://i1.sndcdn.com/artworks-000016091875-r72b9h-t500x500.jpg');
+  background-repeat: round;
+  background-size: cover;
+}
