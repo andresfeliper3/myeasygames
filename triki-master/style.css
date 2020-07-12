@@ -1,0 +1,44 @@
+header {
+  height:20%;
+}
+
+.window {
+  height: 300px;
+  width:500px;
+  border: 5px double black;
+  margin-left:30%;
+}
+.window:hover {
+  cursor:context-menu;
+}
+.title-box {
+  margin-left: 33%;
+}
+.title {
+  font-weight: bold;
+  font-family: Arial, Verdana, sans-serif;
+  text-decoration: underline;
+}
+.description {
+  font-family:monospace;
+  margin-left:10%;
+}
+.levels {
+  margin-left:10%;
+  width:80%;
+  margin-top: 5%;
+}
+.btn-default.level-button {
+  height:40px;
+  width:100px;
+  border:3px double black;
+  text-align: center;
+  margin-left:40%;
+  padding-top:2%;
+  font-family: monospace;
+  margin-top:3%;
+
+}
+.level-button:hover{
+  cursor: pointer;
+}

@@ -1,0 +1,63 @@
+<html>
+<head>
+  <title>Triki</title>
+  <meta charset="utf-8">
+  <link type="text/css" rel="stylesheet" href="style.css"/>
+  <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+</head>
+</head>
+<body>
+  <header>
+
+  </header>
+  <div class="jumbotron">
+    <div class="window">
+      <div class="title-box">
+        <h2 class="title">Triki Game</h2>
+      </div>
+      <div class="description">
+        <p>Escoja el tipo de jugador</p>
+      </div>
+      <div class="levels">
+        <div class="row">
+          <a href="easy/easy.html">
+            <button type="button" class="btn btn-default level-button" id="player1">
+              Jugador 1
+            </button>
+          </a>
+        </div>
+        <div class="row">
+          <a href="easy/easy.html">
+            <button type="button" class="btn btn-default level-button" id="player2">
+              Jugador 2
+            </button>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAntsnbA9T878KjIkogRByH267N8dT5WDI",
+    authDomain: "myeasygames.firebaseapp.com",
+    databaseURL: "https://myeasygames.firebaseio.com",
+    projectId: "myeasygames",
+    storageBucket: "myeasygames.appspot.com",
+    messagingSenderId: "780820082485",
+    appId: "1:780820082485:web:76f7ab3a60c993d8d4267c",
+    measurementId: "G-MP2G9DJQ0D"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</body>
+</html>

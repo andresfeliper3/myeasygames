@@ -1,0 +1,52 @@
+[debug] [2019-12-05T21:46:38.665Z] ----------------------------------------------------------------------
+[debug] [2019-12-05T21:46:38.668Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dy1007\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-12-05T21:46:38.668Z] CLI Version:   7.9.0
+[debug] [2019-12-05T21:46:38.668Z] Platform:      win32
+[debug] [2019-12-05T21:46:38.668Z] Node Version:  v12.13.0
+[debug] [2019-12-05T21:46:38.669Z] Time:          Thu Dec 05 2019 16:46:38 GMT-0500 (GMT-05:00)
+[debug] [2019-12-05T21:46:38.669Z] ----------------------------------------------------------------------
+[debug] [2019-12-05T21:46:38.669Z] 
+[debug] [2019-12-05T21:46:38.674Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-05T21:46:38.674Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\dy1007\Documents\Personal Projects\myeasygames
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-12-05T21:47:00.021Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-12-05T21:47:00.021Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-12-05T21:47:10.257Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-05T21:47:10.267Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2019-12-05T21:47:15.116Z] <<< HTTP RESPONSE 200
+[info] i  Using project animal-saving (Animal Saving)
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2019-12-05T21:47:31.881Z] Error: ENOENT: no such file or directory, open 'C:\Users\dy1007\Documents\Personal Projects\myeasygames\index.html\404.html'
+    at Object.openSync (fs.js:440:3)
+    at Object.writeFileSync (fs.js:1265:35)
+    at Object.createFileSync (C:\Users\dy1007\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\dy1007\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:178:8)
+    at C:\Users\dy1007\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:197:18
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[error] 
+[error] Error: An unexpected error has occurred.
