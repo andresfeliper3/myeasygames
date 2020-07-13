@@ -12,12 +12,15 @@ function placePlayers() {
          if(contador_azul<7) { //solo añade la clase si hay menos de 7 casillas marcadas
 
           /*Subir click a base de datos*/
-          var data = {
+          var data_push = {
             Position: a
           }
-          database.ref("blue/soldier_positions").set(data); //registra la posición en db
-          
-           cuadro_azul.classList.add('blue'); //añade la clase, a la posición registrada en la db
+          var bluePositionsDB = database.ref("blue_positions/" + contador_azul) //Ubica la direcció en DB
+          bluePositionsDB.set(data_push); //registra los datos en la posición en DB
+          bluePositionsDB.child("Position").on('value',function(data) { //
+            position_to_draw_blue = document.getElementById(''+data.val()+''); //Reconoce el elemento con id de la DB
+          });
+          position_to_draw_blue.classList.add('blue'); //añade la clase, a la posición registrada en la db
 
          }
           //Solo dejar 6 fichas
