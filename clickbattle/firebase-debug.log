@@ -1,0 +1,21 @@
+[debug] [2020-07-12T23:25:18.505Z] ----------------------------------------------------------------------
+[debug] [2020-07-12T23:25:18.506Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dy1007\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-07-12T23:25:18.507Z] CLI Version:   8.5.0
+[debug] [2020-07-12T23:25:18.507Z] Platform:      win32
+[debug] [2020-07-12T23:25:18.507Z] Node Version:  v12.13.0
+[debug] [2020-07-12T23:25:18.508Z] Time:          Sun Jul 12 2020 18:25:18 GMT-0500 (GMT-05:00)
+[debug] [2020-07-12T23:25:18.508Z] ----------------------------------------------------------------------
+[debug] [2020-07-12T23:25:18.508Z] 
+[debug] [2020-07-12T23:25:18.516Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-07-12T23:25:18.516Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\dy1007\Documents\Personal Projects\myeasygames\clickbattle
+

@@ -1,3 +1,5 @@
+/*FIREBASE SECTION*/
+var database = firebase.database();
 function placePlayers() {
   alert("Posicione los jugadores del equipo azul");
   //Colocar fichas azules
@@ -8,7 +10,15 @@ function placePlayers() {
          contador_azul ++; //aumenta de 1 en 1 cada vez que se hace click en una casilla
          console.log(contador_azul);
          if(contador_azul<7) { //solo añade la clase si hay menos de 7 casillas marcadas
-           cuadro_azul.classList.add('blue'); //añade la clase
+
+          /*Subir click a base de datos*/
+          var data = {
+            Position: a
+          }
+          database.ref("blue/soldier_positions").set(data); //registra la posición en db
+          
+           cuadro_azul.classList.add('blue'); //añade la clase, a la posición registrada en la db
+
          }
           //Solo dejar 6 fichas
            if(contador_azul==6) {
@@ -228,3 +238,5 @@ function attack() {
    redAttack('2o'+i);
   }
 }
+
+
